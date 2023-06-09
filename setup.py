@@ -6,7 +6,7 @@ with open(readme_path, encoding="utf-8") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="algorithm-visualizer",
+    name="algorithm_visualizer",
     version="0.1.0",
     license="MIT",
 
