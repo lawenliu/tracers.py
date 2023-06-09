@@ -7,13 +7,24 @@ This repository is part of the project [Algorithm Visualizer](https://github.com
 ## Installation
 
 ```bash
-TODO
+build:
+  python3 setup build
+
+distribution:
+    python3 setup sdist
+
+steup:
+    cd ./dist
+    pip3 install algorithm-visualizer-0.1.0.tar.gz
+
 ```
 
 ## Usage
 
 ```python
-TODO
+    from algorithm_visualizer import *
+    boardTracer = Array2DTracer('Board');
+    ...
 ```
 
 Check out the [API reference](https://github.com/algorithm-visualizer/algorithm-visualizer/wiki) for more information.
